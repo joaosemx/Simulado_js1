@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  margin-top: 50px;
+}
+
+.container-felinos {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.coluna {
+  text-align: center;
+  width: 130px;
+}
+
+.coluna img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.coluna p {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+#btnSorte {
+  background-color: #800000;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  font-size: 11px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#caixaSorte {
+  width: 100%;
+  margin-top: 5px;
+  text-align: center;
+  box-sizing: border-box;
+}
